@@ -1,0 +1,22 @@
+# Normalizacion de finales de linea para FLIPR
+# El repositorio almacena SIEMPRE LF. Evita diffs fantasma entre Windows y Vercel.
+* text=auto eol=lf
+
+# Scripts de Windows: deben conservar CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Binarios: Git no debe tocarlos nunca
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.zip   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.mp4   binary
+*.pdf   binary

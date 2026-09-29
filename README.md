@@ -63,7 +63,7 @@ tests/          lógica de precios y saneado de la respuesta de la IA
 
 ## Despliegue
 
-Nuevo proyecto en Vercel con **Root Directory = `Flipr SCORE 2`** y las variables de
+Nuevo proyecto en Vercel importando este repo (Root Directory por defecto, `./`) y las variables de
 `.env.example`. Conviene hacerlo en un subdominio (p. ej. `vender.fliprscore.com`) para
 no tocar la web actual mientras se valida.
 
